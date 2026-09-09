@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T14:36:00+09:00",
+  "updated_at": "2026-09-09T18:05:00+09:00",
   "current_turn": "Claude",
   "features": [
     { "name": "자동 미션", "status": "작업 중", "progress": 85 },
@@ -8,8 +8,9 @@
     { "name": "자동 로그인", "status": "테스트 대기", "progress": 90 },
     { "name": "창 위치", "status": "완료", "progress": 100 },
     { "name": "버프 녹화·재생", "status": "테스트 대기", "progress": 85 },
-    { "name": "귣말 차단", "status": "테스트 대기", "progress": 90 },
+    { "name": "귓말 차단", "status": "테스트 대기", "progress": 90 },
     { "name": "무기 강화", "status": "작업 중", "progress": 90 },
+    { "name": "재화 교환", "status": "작업 중", "progress": 80 },
     { "name": "슬롯 자동사용", "status": "작업 중", "progress": 60 },
     { "name": "원정대", "status": "미구현", "progress": 10 },
     { "name": "자동 도핑", "status": "미구현", "progress": 0 },
