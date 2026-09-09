@@ -12,7 +12,18 @@ function featureRow(feature) {
   const badge = document.createElement('span');
   badge.className = `badge ${statusClass.get(feature.status) || 'todo'}`;
   badge.textContent = feature.status;
-  row.append(name, badge);
+  const value = document.createElement('strong');
+  value.className = 'feature-progress';
+  value.textContent = `${feature.progress}%`;
+  const meter = document.createElement('span');
+  meter.className = 'feature-meter';
+  const fill = document.createElement('span');
+  fill.style.width = `${feature.progress}%`;
+  meter.append(fill);
+  const detail = document.createElement('span');
+  detail.className = 'feature-detail';
+  detail.append(badge, value);
+  row.append(name, detail, meter);
   return row;
 }
 
@@ -21,8 +32,8 @@ async function loadStatus() {
     const response = await fetch('./status.json');
     if (!response.ok) throw new Error('load failed');
     const data = await response.json();
-    const completed = data.features.filter((item) => item.status === '완료').length;
-    const progress = Math.round((completed / data.features.length) * 100);
+    const totalProgress = data.features.reduce((sum, item) => sum + item.progress, 0);
+    const progress = Math.round(totalProgress / data.features.length);
     $('[data-progress]').textContent = `${progress}%`;
     $('[data-progress-bar]').style.width = `${progress}%`;
     $('[data-turn]').textContent = data.current_turn;
