@@ -32,8 +32,12 @@ h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.4rem); letter-spacing: -.05em; lin
 h2 { margin: 0; font-size: 1.15rem; }
 .section-heading > span { color: var(--muted); font-size: .75rem; }
 .features { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.feature-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-width: 0; padding: 14px 15px; border: 1px solid #e7ebf2; border-radius: 12px; }
+.feature-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 10px 12px; min-width: 0; padding: 14px 15px; border: 1px solid #e7ebf2; border-radius: 12px; }
 .feature-name { min-width: 0; font-weight: 700; }
+.feature-detail { display: flex; align-items: center; gap: 8px; }
+.feature-progress { min-width: 38px; color: var(--ink); font-size: .78rem; text-align: right; }
+.feature-meter { grid-column: 1 / -1; height: 5px; overflow: hidden; border-radius: 99px; background: #edf0f5; }
+.feature-meter > span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--primary), var(--secondary)); }
 .badge { flex: none; padding: 5px 9px; border-radius: 99px; font-size: .72rem; font-weight: 800; }
 .badge.done { color: #086548; background: #dff6ec; }
 .badge.active { color: #284ab9; background: #e5eaff; }
