@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-09-09T13:40:00+09:00",
+  "current_turn": "Claude",
+  "features": [
+    { "name": "자동 미션", "status": "작업 중" },
+    { "name": "다클라", "status": "작업 중" },
+    { "name": "보상 룰렛", "status": "작업 중" },
+    { "name": "자동 로그인", "status": "테스트 대기" },
+    { "name": "창 위치", "status": "완료" },
+    { "name": "버프 녹화·재생", "status": "테스트 대기" },
+    { "name": "귣말 차단", "status": "테스트 대기" },
+    { "name": "무기 강화", "status": "작업 중" },
+    { "name": "슬롯 자동사용", "status": "작업 중" },
+    { "name": "원정대", "status": "미구현" },
+    { "name": "자동 도핑", "status": "미구현" },
+    { "name": "마켓 판매자", "status": "미구현" }
+  ]
+}
