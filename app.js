@@ -40,6 +40,10 @@ async function loadStatus() {
     $('[data-updated]').textContent = new Intl.DateTimeFormat('ko-KR', {
       dateStyle: 'medium', timeStyle: 'short',
     }).format(new Date(data.updated_at));
+    const stale = Date.now() - new Date(data.updated_at).getTime() > 48 * 60 * 60 * 1000;
+    const freshness = $('[data-freshness]');
+    freshness.hidden = !stale;
+    freshness.textContent = stale ? '상태 갱신이 48시간 이상 늦었습니다.' : '';
     const list = $('[data-features]');
     data.features.forEach((feature) => list.append(featureRow(feature)));
   } catch {
