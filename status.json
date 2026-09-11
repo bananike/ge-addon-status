@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T04:31:54.292Z",
-  "current_turn": "Claude",
+  "updated_at": "2026-09-11T04:40:23.213Z",
+  "current_turn": "Codex",
   "features": [
     {
       "name": "자동 미션",
@@ -24,8 +24,8 @@
     },
     {
       "name": "창 위치",
-      "status": "완료",
-      "progress": 100
+      "status": "작업 중",
+      "progress": 90
     },
     {
       "name": "버프 녹화·재생",
