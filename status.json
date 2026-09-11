@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-11T04:26:08.851Z",
-  "current_turn": "Claude",
+  "updated_at": "2026-09-11T04:30:41.074Z",
+  "current_turn": "Codex",
   "features": [
     {
       "name": "자동 미션",
       "status": "작업 중",
-      "progress": 90
+      "progress": 85
     },
     {
       "name": "다클라",
