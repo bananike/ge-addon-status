@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T13:25:49.227Z",
+  "updated_at": "2026-09-11T13:39:54.183Z",
   "current_turn": "Claude",
   "features": [
     {
@@ -54,13 +54,13 @@
     },
     {
       "name": "원정대",
-      "status": "미구현",
-      "progress": 10
+      "status": "작업 중",
+      "progress": 70
     },
     {
       "name": "자동 도핑",
-      "status": "미구현",
-      "progress": 0
+      "status": "작업 중",
+      "progress": 70
     },
     {
       "name": "마켓 판매자",
