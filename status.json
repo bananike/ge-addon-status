@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-10T11:10:00.000Z",
-  "current_turn": "Claude",
+  "updated_at": "2026-09-11T00:31:12.188Z",
+  "current_turn": "Codex",
   "features": [
     {
       "name": "자동 미션",
@@ -30,7 +30,7 @@
     {
       "name": "버프 녹화·재생",
       "status": "테스트 대기",
-      "progress": 85
+      "progress": 90
     },
     {
       "name": "귓말 차단",
