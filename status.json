@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T09:12:23.349Z",
+  "updated_at": "2026-09-11T13:25:49.227Z",
   "current_turn": "Claude",
   "features": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "name": "다클라",
-      "status": "작업 중",
-      "progress": 89
+      "status": "테스트 대기",
+      "progress": 92
     },
     {
       "name": "보상 룰렛",
