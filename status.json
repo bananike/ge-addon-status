@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T03:52:38.429Z",
-  "current_turn": "Codex",
+  "updated_at": "2026-09-11T03:53:59.823Z",
+  "current_turn": "Claude",
   "features": [
     {
       "name": "자동 미션",
@@ -10,7 +10,7 @@
     {
       "name": "다클라",
       "status": "작업 중",
-      "progress": 82
+      "progress": 80
     },
     {
       "name": "보상 룰렛",
