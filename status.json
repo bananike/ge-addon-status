@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T09:30:00.000Z",
+  "updated_at": "2026-09-12T15:05:22.602Z",
   "current_turn": "Codex",
   "features": [
     {
@@ -55,7 +55,7 @@
     {
       "name": "슬롯 자동사용",
       "status": "작업 중",
-      "progress": 60
+      "progress": 85
     },
     {
       "name": "원정대",
