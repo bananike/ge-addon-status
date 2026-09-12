@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T13:39:54.183Z",
-  "current_turn": "Claude",
+  "updated_at": "2026-09-12T09:11:00.000Z",
+  "current_turn": "Codex",
   "features": [
     {
       "name": "자동 미션",
@@ -10,7 +10,7 @@
     {
       "name": "다클라",
       "status": "테스트 대기",
-      "progress": 92
+      "progress": 95
     },
     {
       "name": "보상 룰렛",
@@ -30,7 +30,7 @@
     {
       "name": "버프 녹화·재생",
       "status": "작업 중",
-      "progress": 85
+      "progress": 88
     },
     {
       "name": "귓말 차단",
