@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T09:11:00.000Z",
+  "updated_at": "2026-09-12T09:30:00.000Z",
   "current_turn": "Codex",
   "features": [
     {
@@ -8,9 +8,14 @@
       "progress": 85
     },
     {
-      "name": "다클라",
-      "status": "테스트 대기",
-      "progress": 95
+      "name": "다클라 NPC·대화·워프 따라하기",
+      "status": "완료",
+      "progress": 100
+    },
+    {
+      "name": "다클라 장애 복구",
+      "status": "작업 중",
+      "progress": 90
     },
     {
       "name": "보상 룰렛",
@@ -29,8 +34,8 @@
     },
     {
       "name": "버프 녹화·재생",
-      "status": "작업 중",
-      "progress": 88
+      "status": "테스트 대기",
+      "progress": 90
     },
     {
       "name": "귓말 차단",
