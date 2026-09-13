@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T02:02:39.820Z",
+  "updated_at": "2026-09-13T04:47:17.296Z",
   "current_turn": "Codex",
   "features": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "name": "마켓 판매자",
-      "status": "테스트 대기",
+      "status": "작업 중",
       "progress": 90
     }
   ]
