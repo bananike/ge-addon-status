@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T04:47:17.296Z",
+  "updated_at": "2026-09-13T07:52:22.244Z",
   "current_turn": "Codex",
   "features": [
     {
@@ -54,8 +54,8 @@
     },
     {
       "name": "슬롯 자동사용",
-      "status": "작업 중",
-      "progress": 85
+      "status": "테스트 대기",
+      "progress": 90
     },
     {
       "name": "원정대",
@@ -64,8 +64,8 @@
     },
     {
       "name": "자동 도핑",
-      "status": "작업 중",
-      "progress": 85
+      "status": "테스트 대기",
+      "progress": 90
     },
     {
       "name": "마켓 판매자",
