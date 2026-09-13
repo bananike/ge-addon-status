@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T21:28:00.000Z",
+  "updated_at": "2026-09-13T02:02:39.820Z",
   "current_turn": "Codex",
   "features": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "자동 도핑",
       "status": "작업 중",
-      "progress": 70
+      "progress": 85
     },
     {
       "name": "마켓 판매자",
