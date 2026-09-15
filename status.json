@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T09:57:00.849Z",
+  "updated_at": "2026-09-15T13:03:29.828Z",
   "current_turn": "Claude",
   "features": [
     {
@@ -69,8 +69,8 @@
     },
     {
       "name": "마켓 판매자",
-      "status": "작업 중",
-      "progress": 90
+      "status": "완료",
+      "progress": 100
     }
   ]
 }
