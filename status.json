@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T13:03:29.828Z",
+  "updated_at": "2026-09-17T01:59:59.597Z",
   "current_turn": "Claude",
   "features": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "name": "다클라 NPC·대화·워프 따라하기",
-      "status": "완료",
-      "progress": 100
+      "status": "테스트 대기",
+      "progress": 95
     },
     {
       "name": "다클라 장애 복구",
@@ -44,12 +44,12 @@
     },
     {
       "name": "무기 강화",
-      "status": "작업 중",
+      "status": "테스트 대기",
       "progress": 90
     },
     {
       "name": "재화 교환",
-      "status": "작업 중",
+      "status": "테스트 대기",
       "progress": 80
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "원정대",
-      "status": "작업 중",
+      "status": "테스트 대기",
       "progress": 70
     },
     {
