@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T01:59:59.597Z",
+  "updated_at": "2026-09-20T01:45:52.014Z",
   "current_turn": "Claude",
   "features": [
     {
@@ -14,13 +14,13 @@
     },
     {
       "name": "다클라 장애 복구",
-      "status": "작업 중",
-      "progress": 90
+      "status": "테스트 대기",
+      "progress": 95
     },
     {
       "name": "보상 룰렛",
-      "status": "작업 중",
-      "progress": 90
+      "status": "테스트 대기",
+      "progress": 95
     },
     {
       "name": "자동 로그인",
