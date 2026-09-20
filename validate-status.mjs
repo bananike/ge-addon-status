@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
-const TOP_KEYS = new Set(['updated_at', 'current_turn', 'features']);
+const TOP_KEYS = new Set(['updated_at', 'current_turn', 'features', 'stages', 'stage_now', 'current']);
+const STAGE_COUNT = 6;
+const CURRENT_MAX = 80;
 const FEATURE_KEYS = new Set(['name', 'status', 'progress']);
 const STATUSES = new Set(['완료', '작업 중', '테스트 대기', '미구현']);
 
@@ -34,6 +36,19 @@ export function validateStatus(value) {
       throw new Error(`features[${index}].progress는 0~100 정수여야 합니다`);
     }
   });
+
+  if (!Array.isArray(value.stages) || value.stages.length !== STAGE_COUNT) {
+    throw new Error(`stages는 ${STAGE_COUNT}개 배열이어야 합니다`);
+  }
+  value.stages.forEach((stage, index) => {
+    if (typeof stage !== 'string' || !stage.trim()) throw new Error(`stages[${index}]가 비었습니다`);
+  });
+  if (!Number.isInteger(value.stage_now) || value.stage_now < 1 || value.stage_now > STAGE_COUNT) {
+    throw new Error(`stage_now는 1~${STAGE_COUNT} 정수여야 합니다`);
+  }
+  if (typeof value.current !== 'string' || !value.current.trim() || value.current.length > CURRENT_MAX) {
+    throw new Error(`current는 1~${CURRENT_MAX}자 글이어야 합니다`);
+  }
 
   const serialized = JSON.stringify(value);
   const forbidden = [/[A-Za-z]:[\\/]/, /\/Users\//, /0x[0-9A-Fa-f]{6,}/];

@@ -27,6 +27,24 @@ function featureRow(feature) {
   return row;
 }
 
+function stageItem(name, index, now) {
+  const step = index + 1;
+  const state = step < now ? 'done' : step === now ? 'active' : 'todo';
+  const item = document.createElement('li');
+  item.className = `stage ${state}`;
+  const no = document.createElement('span');
+  no.className = 'stage-no';
+  no.textContent = `${step}`;
+  const label = document.createElement('span');
+  label.className = 'stage-name';
+  label.textContent = name;
+  const mark = document.createElement('span');
+  mark.className = 'stage-mark';
+  mark.textContent = state === 'done' ? '끝' : state === 'active' ? '진행 중' : '대기';
+  item.append(no, label, mark);
+  return item;
+}
+
 async function loadStatus() {
   try {
     const response = await fetch('./status.json');
@@ -44,6 +62,9 @@ async function loadStatus() {
     const freshness = $('[data-freshness]');
     freshness.hidden = !stale;
     freshness.textContent = stale ? '상태 갱신이 48시간 이상 늦었습니다.' : '';
+    const stages = $('[data-stages]');
+    data.stages.forEach((name, index) => stages.append(stageItem(name, index, data.stage_now)));
+    $('[data-current]').textContent = data.current;
     const list = $('[data-features]');
     data.features.forEach((feature) => list.append(featureRow(feature)));
   } catch {

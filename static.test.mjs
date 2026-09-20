@@ -6,7 +6,7 @@ const read = (name) => fs.readFileSync(new URL(name, import.meta.url), 'utf8');
 
 test('화면 계약과 로컬 자원만 사용한다', () => {
   const html = read('./index.html');
-  for (const marker of ['data-progress', 'data-turn', 'data-updated', 'data-features']) {
+  for (const marker of ['data-progress', 'data-turn', 'data-updated', 'data-features', 'data-stages', 'data-current']) {
     assert.equal((html.match(new RegExp(`${marker}(?:[\\s=>])`, 'g')) || []).length, 1, marker);
   }
   assert.match(html, /href="\.\/styles\.css"/);
@@ -35,4 +35,14 @@ test('기본 화면은 다크 테마이며 오래된 게시 상태를 드러낸�
   assert.match(css, /color-scheme:\s*dark/);
   assert.match(css, /--canvas:\s*#[0-2][0-9a-f]{5}/i);
   assert.match(app, /stale/);
+});
+
+test('여섯 단계와 지금 하는 일을 화면에 낸다', () => {
+  const html = read('./index.html');
+  const app = read('./app.js');
+  assert.match(html, /data-stages/);
+  assert.match(html, /data-current/);
+  assert.match(app, /data\.stages/);
+  assert.match(app, /data\.stage_now/);
+  assert.match(app, /data\.current/);
 });

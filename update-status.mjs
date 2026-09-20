@@ -5,11 +5,15 @@ import { validateStatus } from './validate-status.mjs';
 
 export function updateStatus(file, change) {
   const value = JSON.parse(fs.readFileSync(file, 'utf8'));
-  const feature = value.features.find((item) => item.name === change.feature);
-  if (!feature) throw new Error(`없는 기능: ${change.feature}`);
-  feature.status = change.status;
-  feature.progress = Number(change.progress);
-  value.current_turn = change.turn;
+  if (change.feature !== undefined) {
+    const feature = value.features.find((item) => item.name === change.feature);
+    if (!feature) throw new Error(`없는 기능: ${change.feature}`);
+    feature.status = change.status;
+    feature.progress = Number(change.progress);
+  }
+  if (change.stageNow !== undefined) value.stage_now = Number(change.stageNow);
+  if (change.current !== undefined) value.current = change.current;
+  if (change.turn !== undefined) value.current_turn = change.turn;
   value.updated_at = change.now || new Date().toISOString();
   validateStatus(value);
   const temporary = `${file}.${process.pid}.tmp`;
@@ -24,6 +28,7 @@ function argumentsFrom(argv) {
   return {
     feature: values.get('--feature'), status: values.get('--status'),
     progress: values.get('--progress'), turn: values.get('--turn'),
+    stageNow: values.get('--stage-now'), current: values.get('--current'),
   };
 }
 
