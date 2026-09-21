@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T02:14:59.750Z",
+  "updated_at": "2026-09-21T02:15:14.972Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -29,8 +29,8 @@
     },
     {
       "name": "보상 룰렛",
-      "status": "테스트 대기",
-      "progress": 95
+      "status": "작업 중",
+      "progress": 90
     },
     {
       "name": "자동 로그인",
