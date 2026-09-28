@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T11:15:22.719Z",
+  "updated_at": "2026-09-28T11:35:35.031Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "345-b 끝 — 시험 카드 보정·사장님 원문 셋 복원(자동미션 사거리·도핑 다시 먹기) — 코덱스 검토 대기",
+  "current": "v1.92 현장 1차: 슬롯·재화·강화 확인 완료, 버프 마을 거절·정상 로그인 하위 확인; 나머지 게임 확인 대기",
   "features": [
     {
       "name": "자동 미션",
@@ -54,18 +54,18 @@
     },
     {
       "name": "무기 강화",
-      "status": "테스트 대기",
-      "progress": 90
+      "status": "완료",
+      "progress": 100
     },
     {
       "name": "재화 교환",
-      "status": "테스트 대기",
-      "progress": 95
+      "status": "완료",
+      "progress": 100
     },
     {
       "name": "슬롯 자동사용",
-      "status": "테스트 대기",
-      "progress": 95
+      "status": "완료",
+      "progress": 100
     },
     {
       "name": "원정대",
