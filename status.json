@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T02:01:45.773Z",
+  "updated_at": "2026-09-30T02:55:35.186Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "PC 공용 LAN 설정(91c03ec) 독립 검토 끝 — 조건부 승인: 본컴 이주 OK, 세컨컴은 옛 Clear 찌꺼기 파일 지워야 이주됨",
+  "current": "트루먼 NPC 늦은 도착 유예(065b95f) 독립 검토 끝 — 통과: 같은 층·NPC 45초 유예, 300 안 한 번",
   "features": [
     {
       "name": "자동 미션",
