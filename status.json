@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T04:01:34.976Z",
+  "updated_at": "2026-10-04T05:09:59.267Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "업데이트 보정(C5·G1) 검토 승인 · faultdiag 빨강은 시험 문제 · OneDrive 위험 1건 등록",
+  "current": "업데이트 패널 검토 승인 — 운영 열쇠 전에 고칠 안내 문구 여섯 가지 정리",
   "features": [
     {
       "name": "자동 미션",
