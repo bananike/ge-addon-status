@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T03:09:56.045Z",
+  "updated_at": "2026-10-04T04:01:34.976Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "업데이트 2단계 검토 끝 — 3단계 진행 가능, 자동 설치는 설치 거래 만든 뒤 따로",
+  "current": "업데이트 보정(C5·G1) 검토 승인 · faultdiag 빨강은 시험 문제 · OneDrive 위험 1건 등록",
   "features": [
     {
       "name": "자동 미션",
