@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:39:57.814Z",
+  "updated_at": "2026-10-21T09:13:49.038Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "778: 1.125 발행 prepare 가 자동 모드 권한 분류기에 막힘(Production Deploy) — 안준영님 선택 대기",
+  "current": "1.125 발행 완료 — prepare·verify·release rc 0 · 공개 v1.125 재다운로드 일치 · 설치는 안준영님 말씀 때",
   "features": [
     {
       "name": "자동 미션",
