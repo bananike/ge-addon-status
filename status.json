@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T07:53:03.254Z",
+  "updated_at": "2026-10-21T08:22:34.830Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "763: 1.125 후보 묶음 끝(회귀 260/0 · 후보 잠금 · inspect 해시) — 코덱스 해시 승인 뒤 prepare·발행",
+  "current": "777: 1.125 검증기 생성 원문 찾음(763 세션 scratchpad · RC 0) — 코덱스 2636 보완 회신 대기",
   "features": [
     {
       "name": "자동 미션",
