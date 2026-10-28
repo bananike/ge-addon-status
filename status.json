@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T12:54:23.387Z",
+  "updated_at": "2026-10-28T15:08:11.102Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "871 끝: 1.136 발행 완료 · GitHub latest v1.136 · 재다운로드 verify rc 0 · 두 PC 설치 0",
+  "current": "872 끝: 사람 물약 녹화·재생 독립 검토 승인(반례 20/0·65/0) · 다음은 코덱스 방 목록 ⓒ → 1.137",
   "features": [
     {
       "name": "자동 미션",
