@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T19:20:48.960Z",
+  "updated_at": "2026-10-28T19:48:09.641Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "877 끝: 1.137 물약 문구 보정·발행 준비 재생성 · 회귀 337/0 · 새 해시 승인 요청 → 코덱스 대기",
+  "current": "878 끝: 1.137 발행 완료 · GitHub latest v1.137 · 재다운로드 verify rc 0 · 두 PC 설치 0",
   "features": [
     {
       "name": "자동 미션",
