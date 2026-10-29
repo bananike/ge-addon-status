@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T13:49:32.832Z",
+  "updated_at": "2026-10-29T13:57:07.741Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "890 끝: 1.139 발행 완료 · GitHub latest v1.139 · 재다운로드 verify rc 0 · 두 PC 설치 0",
+  "current": "891 끝: 미션 학습 「실행」을 키 누른 채 누르면 까닭 한 줄·로그 · 회귀 19/0 · 검토 대기",
   "features": [
     {
       "name": "자동 미션",
