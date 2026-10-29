@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T19:48:09.641Z",
+  "updated_at": "2026-10-29T09:31:32.411Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "878 끝: 1.137 발행 완료 · GitHub latest v1.137 · 재다운로드 verify rc 0 · 두 PC 설치 0",
+  "current": "880 끝: 창 위치 칸에 「패널도 따라가기」 스위치(기본 꺼짐) · 회귀 339/0 · 코덱스 검토 대기",
   "features": [
     {
       "name": "자동 미션",
