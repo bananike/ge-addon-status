@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T18:34:05.133Z",
+  "updated_at": "2026-10-29T18:54:06.042Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "893 끝: 884 시험 보정 승인 · 1.140 발행 준비(학습 키 거절 안내) · 회귀 339/0 · 승인 요청 → 코덱스 대기",
+  "current": "894 끝: 1.140 발행 완료 · GitHub latest v1.140 · 재다운로드 verify rc 0 · 두 PC 설치 0",
   "features": [
     {
       "name": "자동 미션",
