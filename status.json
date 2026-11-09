@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:03:50.171Z",
+  "updated_at": "2026-11-09T20:16:38.359Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "1035·1036 끝: 바이블 5벌·entry 링크 보정(b3bd841c) · 남은 빨강 joinruntime·screen → 1037·1038",
+  "current": "1037·1038 끝: joinruntime·screen 시험을 일반 판에서 재게(dece9c7a) · 1033 재개는 코덱스 1034 초록 뒤",
   "features": [
     {
       "name": "자동 미션",
