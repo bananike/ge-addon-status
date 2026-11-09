@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T15:57:30.838Z",
+  "updated_at": "2026-11-09T20:03:50.171Z",
   "current_turn": "Claude",
   "stages": [
     "기능 점검",
@@ -10,7 +10,7 @@
     "배포 테스트"
   ],
   "stage_now": 5,
-  "current": "1033 막힘: 1.151 묶기 전 전체 회귀 306/9/56 — 격리 통합 뒤 숨은 실패 · 보정 뒤 재개",
+  "current": "1035·1036 끝: 바이블 5벌·entry 링크 보정(b3bd841c) · 남은 빨강 joinruntime·screen → 1037·1038",
   "features": [
     {
       "name": "자동 미션",
